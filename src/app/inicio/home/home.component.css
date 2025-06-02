@@ -1,0 +1,94 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #fffbe6; 
+  color: black;
+   background-image: url('img/parqueo.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.welcome-card {
+  background-color: #fff176; 
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: black; 
+}
+
+.welcome-card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.welcome-card p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fdd835; 
+  color: black;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #fbc02d;
+}
+
+.quienes-somos-container {
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); 
+  }
+
+  .quienes-somos-titulo {
+    font-size: 1.5rem;
+    color: #333; 
+    margin-bottom: 10px;
+  }
+
+  .quienes-somos-texto {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6; 
+    margin-bottom: 20px;
+  }
+
+  .vision-mision-container{
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  }
+  .vision-mision-titulo{
+    font-size: 1.5rem;
+    color: #333; 
+    margin-bottom: 10px;
+
+  }
+  .vision-mision-texto{
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6; 
+    margin-bottom: 20px;
+  }
+
+  

@@ -1,0 +1,49 @@
+/* Estilo base del navbar */
+.navbar {
+  background-color: #fff59d !important; /* Amarillo claro */
+  border-bottom: 2px solid #fbc02d;     /* Amarillo más fuerte */
+  color: black;
+}
+
+/* Marca (SACP) */
+.navbar-brand {
+  font-weight: bold;
+  color: #000 !important;
+  font-size:large;
+}
+
+/* Enlaces del menú */
+.nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #f57f17 !important; /* Amarillo oscuro */
+}
+
+/* Input y botón del formulario de búsqueda */
+.form-control {
+  border-color: #fbc02d;
+}
+
+.btn-outline-success {
+  color: black;
+  border-color: #fbc02d;
+}
+
+.btn-outline-success:hover {
+  background-color: #fbc02d;
+  color: black;
+  border-color: #f9a825;
+}
+
+/* Ícono del toggler en modo móvil */
+.navbar-toggler {
+  border-color: #fbc02d;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
